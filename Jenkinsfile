@@ -10,7 +10,7 @@ pipeline {
   environment {
     DOCKERHUB_CREDENTIAL_ID = 'dockerhub-pwd'
     GITHUB_CREDENTIAL_ID = 'github-pwd'
-    KUBECONFIG_CREDENTIAL_ID = 'kubeconfig-pwd'
+    KUBECONFIG_CREDENTIAL_ID = 'demo-kubeconfig'
     DOCKERHUB_NAMESPACE = 'jerryjedi'
     GTIHUB_ACCOUNT = 'jerryjedi'
     APP_NAME = 'devops-docs-sample'
